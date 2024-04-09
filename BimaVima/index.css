@@ -1,0 +1,168 @@
+.li {
+    list-style: none;
+}
+
+.button {
+    overscroll-behavior: popup;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 10px;
+}
+
+.benefit-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.benefit-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.ways-step {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.step-card .card-body {
+    text-align: center;
+}
+
+.step-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #888;
+    transition: color 0.3s, transform 0.3s;
+    transform-origin: center center;
+}
+
+.step-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.section-customer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.gsc_container,
+.gsc_container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.personalizedinsuranceadvice {
+    max-width: 1147px;
+    height: 344px;
+    background: #fef6f6;
+    border-radius: 20px;
+    margin: 135px auto;
+    position: relative;
+    padding: 70px 60px 30px 510px;
+    box-sizing: border-box;
+}
+
+.avatarimg {
+    width: 448px;
+    height: 437px;
+    margin-left: -101px;
+}
+
+.personalizedinsuranceadvice .adviceimg {
+    position: absolute;
+    bottom: -4px;
+    left: 130px;
+}
+
+.personalizedinsuranceadvice .adviceText button {
+    box-shadow: 0 8px 8px #FF6666;
+    border-radius: 8px;
+    width: 107px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: .25px;
+    background: #e90000;
+    color: #fff;
+    margin: 24px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.section-question {
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+details {
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+details>summary {
+    list-style: none;
+}
+
+.icon svg {
+    transition: all 0.35s ease-out;
+    float: right;
+}
+
+summary {
+    background-color: #e90000;
+    color: #ebe8f0;
+    padding: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.accordion {
+    width: 80%;
+    max-width: 600px;
+    margin: 5rem auto 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .gsc_container {
+        max-width: 98%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
